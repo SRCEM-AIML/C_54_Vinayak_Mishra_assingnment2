@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/vinayakmishra-11/StudentProject.git'
+                git 'https://github.com/SRCEM-AIML/C_54_Vinayak_Mishra_assingnment2.git'
             }
         }
 
