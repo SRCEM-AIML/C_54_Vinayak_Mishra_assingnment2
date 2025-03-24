@@ -9,11 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                script {
-                    git branch: 'main',
-                        credentialsId: 'github-credentials',
-                        url: 'https://github.com/SRCEM-AIML/C_54_Vinayak_Mishra_assingnment2.git'
-                }
+                git branch: 'main', url: 'https://github.com/vinayakmishra-11/StudentProject.git'
             }
         }
 
@@ -35,5 +31,6 @@ pipeline {
                 }
             }
         }
+
     }
 }
